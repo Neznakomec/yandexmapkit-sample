@@ -40,6 +40,14 @@
         android:background="#FF00FF"
         android:orientation="vertical" >
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/InfoLabel"
+            android:layout_gravity="center_horizontal" />
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

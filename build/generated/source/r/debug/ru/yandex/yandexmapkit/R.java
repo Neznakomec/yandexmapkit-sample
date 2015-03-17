@@ -41,25 +41,25 @@ public final class R {
 		public static final int ymk_zoom_plus_pressed = 0x7f020026;
 	}
 	public static final class id {
-		public static final int ymk_balloon_text_view = 0x7f08000d;
-		public static final int ymk_find_me = 0x7f080014;
-		public static final int ymk_scale = 0x7f080010;
-		public static final int ymk_screen_buttons_bottom = 0x7f08000f;
-		public static final int ymk_screen_buttons_top = 0x7f08000e;
-		public static final int ymk_semaphore = 0x7f080011;
-		public static final int ymk_zoom_in = 0x7f080012;
-		public static final int ymk_zoom_out = 0x7f080013;
+		public static final int ymk_balloon_text_view = 0x7f09000e;
+		public static final int ymk_find_me = 0x7f090015;
+		public static final int ymk_scale = 0x7f090011;
+		public static final int ymk_screen_buttons_bottom = 0x7f090010;
+		public static final int ymk_screen_buttons_top = 0x7f09000f;
+		public static final int ymk_semaphore = 0x7f090012;
+		public static final int ymk_zoom_in = 0x7f090013;
+		public static final int ymk_zoom_out = 0x7f090014;
 	}
 	public static final class layout {
 		public static final int ymk_balloon_default_layout = 0x7f03000a;
 		public static final int ymk_screen_buttons_layout = 0x7f03000b;
 	}
 	public static final class string {
-		public static final int ymk_findme_not_found = 0x7f06002b;
-		public static final int ymk_kilometers_short = 0x7f06002c;
-		public static final int ymk_lang = 0x7f06002d;
-		public static final int ymk_meters_short = 0x7f06002e;
-		public static final int ymk_my_place = 0x7f06002f;
+		public static final int ymk_findme_not_found = 0x7f07002b;
+		public static final int ymk_kilometers_short = 0x7f07002c;
+		public static final int ymk_lang = 0x7f07002d;
+		public static final int ymk_meters_short = 0x7f07002e;
+		public static final int ymk_my_place = 0x7f07002f;
 	}
 	public static final class xml {
 		public static final int ymk_map_layers = 0x7f040000;
