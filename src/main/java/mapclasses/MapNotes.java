@@ -33,14 +33,12 @@ public class MapNotes extends SimpleMap implements  OnMapListener{
 
     private ArrayList<MapNote> mapNotesList;
     private Time lastAddTime = new Time();
-    private int noteCount;
 
     // CONSTRUCTOR
 
     public MapNotes(Activity activity, MapView initialMap) {
         super(activity, initialMap);
         mapNotesList = new ArrayList<MapNote>();
-        noteCount = 0;
         mapController.addMapListener(this);
     }
 
@@ -119,7 +117,7 @@ public class MapNotes extends SimpleMap implements  OnMapListener{
             public void run() {
                 if (addIt) {
                     if (nowF.toMillis(true) - lastAddTime.toMillis(true) > 3000) {
-                        int currentId = noteCount + 1;
+                        int currentId = mapNotesList.size() + 1;
                         MapNote addingNote = new MapNote("Point №" + Integer.toString(currentId),
                                 nowF.format("%d.%m %H:%M:%S"),
                                 putBalloon(getPointOnScreen(x, y))
@@ -127,7 +125,7 @@ public class MapNotes extends SimpleMap implements  OnMapListener{
                         mapNotesList.add(addingNote);
 
                         if (mapNoteAdapter != null)
-                            mapNoteAdapter.notifyDataSetChanged(); // ????
+                            mapNoteAdapter.notifyDataSetChanged();
                         else
                             Log.e("NULL OBJECT", "PLEASE CHECK MAPNOTE ADAPTER, USING WITHOUT INIT");
 
