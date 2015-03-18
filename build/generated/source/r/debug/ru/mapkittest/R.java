@@ -56,29 +56,34 @@ public final class R {
         public static final int ymk_zoom_plus_pressed=0x7f020026;
     }
     public static final class id {
-        public static final int InfoLabel=0x7f090001;
-        public static final int action_settings=0x7f090016;
-        public static final int b1=0x7f090000;
-        public static final int b2=0x7f090002;
-        public static final int balloon_image_view1=0x7f090005;
-        public static final int balloon_images_view1=0x7f090006;
-        public static final int balloon_images_view2=0x7f090007;
-        public static final int balloon_images_view3=0x7f090008;
-        public static final int balloon_images_view4=0x7f090009;
-        public static final int balloon_text_view1=0x7f090004;
-        public static final int head=0x7f09000b;
-        public static final int info=0x7f09000a;
-        public static final int lay=0x7f09000c;
-        public static final int map=0x7f090003;
-        public static final int view=0x7f09000d;
-        public static final int ymk_balloon_text_view=0x7f09000e;
-        public static final int ymk_find_me=0x7f090015;
-        public static final int ymk_scale=0x7f090011;
-        public static final int ymk_screen_buttons_bottom=0x7f090010;
-        public static final int ymk_screen_buttons_top=0x7f09000f;
-        public static final int ymk_semaphore=0x7f090012;
-        public static final int ymk_zoom_in=0x7f090013;
-        public static final int ymk_zoom_out=0x7f090014;
+        public static final int InfoLabel=0x7f090004;
+        public static final int action_settings=0x7f09001b;
+        public static final int b1=0x7f090001;
+        public static final int b2=0x7f090005;
+        public static final int balloon_image_view1=0x7f090008;
+        public static final int balloon_images_view1=0x7f090009;
+        public static final int balloon_images_view2=0x7f09000a;
+        public static final int balloon_images_view3=0x7f09000b;
+        public static final int balloon_images_view4=0x7f09000c;
+        public static final int balloon_text_view1=0x7f090007;
+        public static final int head=0x7f09000e;
+        public static final int horizontalScrollView=0x7f090002;
+        public static final int info=0x7f09000d;
+        public static final int lay=0x7f090011;
+        public static final int list_image=0x7f090010;
+        public static final int mainLayout=0x7f090000;
+        public static final int map=0x7f090006;
+        public static final int pointsList=0x7f090003;
+        public static final int thumbnail=0x7f09000f;
+        public static final int view=0x7f090012;
+        public static final int ymk_balloon_text_view=0x7f090013;
+        public static final int ymk_find_me=0x7f09001a;
+        public static final int ymk_scale=0x7f090016;
+        public static final int ymk_screen_buttons_bottom=0x7f090015;
+        public static final int ymk_screen_buttons_top=0x7f090014;
+        public static final int ymk_semaphore=0x7f090017;
+        public static final int ymk_zoom_in=0x7f090018;
+        public static final int ymk_zoom_out=0x7f090019;
     }
     public static final class integer {
         public static final int max_event=0x7f060000;
@@ -89,13 +94,14 @@ public final class R {
         public static final int balloon_images_layout=0x7f030002;
         public static final int info=0x7f030003;
         public static final int item=0x7f030004;
-        public static final int sample=0x7f030005;
-        public static final int sample10=0x7f030006;
-        public static final int sample6=0x7f030007;
-        public static final int sample8=0x7f030008;
-        public static final int sample9=0x7f030009;
-        public static final int ymk_balloon_default_layout=0x7f03000a;
-        public static final int ymk_screen_buttons_layout=0x7f03000b;
+        public static final int list_row=0x7f030005;
+        public static final int sample=0x7f030006;
+        public static final int sample10=0x7f030007;
+        public static final int sample6=0x7f030008;
+        public static final int sample8=0x7f030009;
+        public static final int sample9=0x7f03000a;
+        public static final int ymk_balloon_default_layout=0x7f03000b;
+        public static final int ymk_screen_buttons_layout=0x7f03000c;
     }
     public static final class menu {
         public static final int menu_test=0x7f080000;
