@@ -1,16 +1,13 @@
-package ru.mapkittest.testactivity;
+package ru.mapkittest.pointlist;
 
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
-import android.content.res.Resources;
 import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
-import android.text.format.Time;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -22,27 +19,16 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import org.apache.http.message.BasicNameValuePair;
-
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
 
 import mapclasses.MapNote;
 import mapclasses.MapNotes;
 import ru.mapkittest.R;
-import ru.yandex.yandexmapkit.MapController;
 import ru.yandex.yandexmapkit.MapView;
-import ru.yandex.yandexmapkit.OverlayManager;
-import ru.yandex.yandexmapkit.map.MapEvent;
-import ru.yandex.yandexmapkit.map.OnMapListener;
-import ru.yandex.yandexmapkit.overlay.Overlay;
-import ru.yandex.yandexmapkit.overlay.OverlayItem;
-import ru.yandex.yandexmapkit.overlay.balloon.BalloonItem;
 import ru.yandex.yandexmapkit.utils.GeoPoint;
-import ru.yandex.yandexmapkit.utils.ScreenPoint;
 
-public class TestActivity extends Activity {
+public class PointListActivity extends Activity {
     private MapNotes mapNotes;
     private ListView pointsList;
     private  ArrayAdapter noteAdapter;
@@ -50,7 +36,8 @@ public class TestActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_test);
+        setTitle(R.string.sample15_head);
+        setContentView(R.layout.list_point_layout);
 
         this.pointsList = (ListView)findViewById(R.id.pointsList);
         final MapView mapView = (MapView) findViewById(R.id.map);

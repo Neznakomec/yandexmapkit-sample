@@ -35,16 +35,17 @@
     <string name="sample13_head">GeoCode</string>
     <string name="sample14">ZoomSpan/Устанавливает зум чтоб поместились все объекты</string>
     <string name="sample14_head">ZoomSpan</string>
+    <string name="sample15_head">Список точек</string>
+    <string name="sample15">Список точек/Добавляет точки на карту, строит маршруты в Яндекс.Навигаторе</string>
     <string name="kremlin">Кремль</string>
     <string name="yandex">Яндекс</string>
     <string name="omsk">Омск</string>
     <string name="berlin">Берлин</string>
     <string name="drag">Перетащи меня!</string>
-    <string name="title_activity_test">TestActivity</string>
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
 
-    <string name="successful_clear">All data was successfully cleared</string>
+    <string name="successful_clear">All points was successfully cleared</string>
 </resources>
 

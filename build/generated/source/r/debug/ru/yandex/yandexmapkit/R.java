@@ -55,11 +55,11 @@ public final class R {
 		public static final int ymk_screen_buttons_layout = 0x7f03000c;
 	}
 	public static final class string {
-		public static final int ymk_findme_not_found = 0x7f07002c;
-		public static final int ymk_kilometers_short = 0x7f07002d;
-		public static final int ymk_lang = 0x7f07002e;
-		public static final int ymk_meters_short = 0x7f07002f;
-		public static final int ymk_my_place = 0x7f070030;
+		public static final int ymk_findme_not_found = 0x7f07002d;
+		public static final int ymk_kilometers_short = 0x7f07002e;
+		public static final int ymk_lang = 0x7f07002f;
+		public static final int ymk_meters_short = 0x7f070030;
+		public static final int ymk_my_place = 0x7f070031;
 	}
 	public static final class xml {
 		public static final int ymk_map_layers = 0x7f040000;
