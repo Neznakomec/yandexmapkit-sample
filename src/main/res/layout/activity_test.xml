@@ -27,13 +27,6 @@
         android:orientation="vertical"
         android:layout_weight=".5">
 
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/b1"
-            android:text="AddListItem"
-            android:onClick="myButtonClick" />
-
         <HorizontalScrollView
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
@@ -61,21 +54,6 @@
         android:orientation="vertical"
         android:baselineAligned="false"
         android:layout_weight=".5">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="Medium Text"
-            android:id="@+id/InfoLabel"
-            android:layout_gravity="center_horizontal" />
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/b2"
-            android:text="Button 2"
-            android:onClick="eraseClick" />
 
         <ru.yandex.yandexmapkit.MapView
             android:id="@+id/map"

@@ -3,4 +3,7 @@
     tools:context="ru.mapkittest.testactivity.TestActivity">
     <item android:id="@+id/action_settings" android:title="@string/action_settings"
         android:orderInCategory="100" android:showAsAction="never" />
+    <item android:id="@+id/action_clear" android:title="clear"
+        android:orderInCategory="100" android:showAsAction="never"
+        android:onClick="func1"/>
 </menu>
