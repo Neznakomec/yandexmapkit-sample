@@ -11,34 +11,56 @@
 
 </RelativeLayout>
 -->
-
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="horizontal">
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:id="@+id/mainLayout"
+    android:baselineAligned="false">
 
 
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
         android:background="#00FF00"
-        android:paddingRight="90dp"
-        android:orientation="vertical" >
+        android:orientation="vertical"
+        android:layout_weight=".5">
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/b1"
-            android:text="Button 1"/>
+            android:text="AddListItem"
+            android:onClick="myButtonClick" />
+
+        <HorizontalScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/horizontalScrollView"
+            >
+
+            <ListView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:id="@+id/pointsList"
+                android:divider="#fff"
+                android:dividerHeight="2px"
+                android:cacheColorHint="#00000000"
+                android:choiceMode="singleChoice"
+                android:listSelector="#666666"/>
+        </HorizontalScrollView>
 
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
         android:background="#FF00FF"
-        android:orientation="vertical" >
+        android:orientation="vertical"
+        android:baselineAligned="false"
+        android:layout_weight=".5">
 
         <TextView
             android:layout_width="wrap_content"
@@ -52,7 +74,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/b2"
-            android:text="Button 2"/>
+            android:text="Button 2"
+            android:onClick="eraseClick" />
 
         <ru.yandex.yandexmapkit.MapView
             android:id="@+id/map"
@@ -61,6 +84,12 @@
             android:apiKey="1234567890"
             android:layout_weight="1"
             />
-    </LinearLayout>
 
+        <!--<ListView
+            android:id="@+id/testlist"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+            </ListView> -->
+    </LinearLayout>
 </LinearLayout>
